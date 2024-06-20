@@ -1,7 +1,12 @@
 package main
 
-import "github.com/lilpipidron/L1-wb/tasks"
+import (
+	"fmt"
+	"github.com/lilpipidron/L1-wb/tasks"
+)
 
 func main() {
-	tasks.Solve2()
+	human := tasks.Human{Name: "John", Age: 25}
+	action := tasks.Action{Human: human}
+	fmt.Println(action.GetNameAndAge())
 }
