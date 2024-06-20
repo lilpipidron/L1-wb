@@ -12,8 +12,8 @@ import (
 func Solve3() {
 	arr := []int{2, 4, 6, 8, 10}
 	var ans int
-	var wg sync.WaitGroup
-	var mx sync.Mutex
+	wg := sync.WaitGroup{}
+	mx := sync.Mutex{}
 
 	wg.Add(len(arr))
 	for _, val := range arr {

@@ -17,7 +17,7 @@ import (
 
 func Solve2() {
 	arr := []int{2, 4, 6, 8, 10}
-	var wg sync.WaitGroup
+	wg := sync.WaitGroup{}
 	wg.Add(len(arr))
 	ans := make([]int, len(arr))
 	for i, val := range arr {

@@ -19,4 +19,8 @@ func main() {
 	//task 3
 	fmt.Println("task3")
 	tasks.Solve3()
+
+	//task 4
+	fmt.Println("task4")
+	tasks.Solve4()
 }
