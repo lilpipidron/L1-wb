@@ -48,6 +48,10 @@ func main() {
 	fmt.Println("task19")
 	tasks.Solve19()
 
+	//task20
+	fmt.Println("task20")
+	tasks.Solve20()
+
 	//task24
 	fmt.Println("task24")
 	point1 := tasks.NewPoint(1, 1)
