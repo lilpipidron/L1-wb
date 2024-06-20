@@ -30,11 +30,16 @@ func main() {
 	tasks.Sender2()
 	tasks.Sender3()*/
 
-	//task 6
-	fmt.Println("task6")
-	tasks.Solve6_1()
-	tasks.Solve6_2()
-	tasks.Solve6_3()
-	tasks.Solve6_4()
-	tasks.Solve6_5()
+	/*	//task 6
+		fmt.Println("task6")
+		tasks.Solve6_1()
+		tasks.Solve6_2()
+		tasks.Solve6_3()
+		tasks.Solve6_4()
+		tasks.Solve6_5()*/
+
+	//task26
+	fmt.Println("task26")
+	fmt.Println(tasks.Solve26("abc"))
+	fmt.Println(tasks.Solve26("aAbBcC"))
 }
