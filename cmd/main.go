@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("task3")
 	tasks.Solve3()
 
-	//task 4
+	/*//task 4
 	fmt.Println("task4")
 	tasks.Solve4()
 
@@ -28,5 +28,13 @@ func main() {
 	fmt.Println("task5")
 	tasks.Sender1()
 	tasks.Sender2()
-	tasks.Sender3()
+	tasks.Sender3()*/
+
+	//task 6
+	fmt.Println("task6")
+	tasks.Solve6_1()
+	tasks.Solve6_2()
+	tasks.Solve6_3()
+	tasks.Solve6_4()
+	tasks.Solve6_5()
 }
