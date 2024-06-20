@@ -23,4 +23,10 @@ func main() {
 	//task 4
 	fmt.Println("task4")
 	tasks.Solve4()
+
+	//task 5
+	fmt.Println("task5")
+	tasks.Sender1()
+	tasks.Sender2()
+	tasks.Sender3()
 }
