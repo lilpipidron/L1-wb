@@ -47,6 +47,10 @@ func main() {
 	fmt.Println("task9")
 	tasks.Solve9()
 
+	//task12
+	fmt.Println("task12")
+	tasks.Solve12()
+
 	//task13
 	fmt.Println("task13")
 	tasks.Solve13_1()
@@ -60,6 +64,10 @@ func main() {
 	//task20
 	fmt.Println("task20")
 	tasks.Solve20()
+
+	//task22
+	fmt.Println("tasks22")
+	tasks.Solve22()
 
 	//task24
 	fmt.Println("task24")
