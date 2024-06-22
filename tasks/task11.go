@@ -67,8 +67,8 @@ func Solve11_2() {
 }
 
 func Solve11_3() {
-	arr1 := []int{1, 2, 3, 4, 5}
-	arr2 := []int{3, 4, 5, 6, 7}
+	arr1 := []int{5, 3, 2, 6, 1}
+	arr2 := []int{3, 1, 5, 7, 2}
 	var ans []int
 
 	for _, val1 := range arr1 {

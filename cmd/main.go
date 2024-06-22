@@ -63,6 +63,13 @@ func main() {
 	tasks.Solve13_2()
 	tasks.Solve13_3()
 
+	//task14
+	fmt.Println("task14")
+	tasks.Solve14_1(1)
+	tasks.Solve14_2("1")
+	tasks.Solve14_3(true)
+	tasks.Solve14_3(make(chan int))
+
 	//task19
 	fmt.Println("task19")
 	tasks.Solve19()
