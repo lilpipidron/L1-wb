@@ -40,16 +40,20 @@ func main() {
 	//task7
 	fmt.Println("task7")
 	tasks.SolveWithSyncMap()
-	//task8
-	fmt.Println("task8")
-	tasks.Solve8_1()
-	tasks.Solve8_2()
 
+	/*	//task8
+		fmt.Println("task8")
+		tasks.Solve8_1()
+		tasks.Solve8_2()*/
+
+	//task9
+	fmt.Println("task9")
+	tasks.Solve9()
+
+	//task10
+	fmt.Println("task10")
+	tasks.Solve10()
 	/*
-		//task9
-		fmt.Println("task9")
-		tasks.Solve9()
-
 		//task11
 		fmt.Println("task11")
 		tasks.Solve11_1()
