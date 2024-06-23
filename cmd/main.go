@@ -94,6 +94,12 @@ func main() {
 	point2 := tasks.NewPoint(2, 2)
 	fmt.Println(tasks.Solve24(point1, point2))
 
+	//task25
+	fmt.Println("task25")
+	tasks.Solve25_1()
+	tasks.Solve25_2()
+	tasks.Solve25_3()
+
 	//task26
 	fmt.Println("task26")
 	fmt.Println(tasks.Solve26("abc"))
