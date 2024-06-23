@@ -69,18 +69,23 @@ func main() {
 		tasks.Solve14_2("1")
 		tasks.Solve14_3(true)
 		tasks.Solve14_3(make(chan int))
+	*/
 
-		//task19
-		fmt.Println("task19")
-		tasks.Solve19()
+	//task17
+	fmt.Println("task17")
+	tasks.Solve17()
 
-		//task20
-		fmt.Println("task20")
-		tasks.Solve20()
+	//task19
+	fmt.Println("task19")
+	tasks.Solve19()
 
-		//task22
-		fmt.Println("task22")
-		tasks.Solve22()*/
+	//task20
+	fmt.Println("task20")
+	tasks.Solve20()
+
+	//task22
+	fmt.Println("task22")
+	tasks.Solve22()
 
 	//task23
 	fmt.Println("task23")
