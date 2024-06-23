@@ -37,11 +37,14 @@ func main() {
 		tasks.Solve6_3()
 		tasks.Solve6_4()
 		tasks.Solve6_5()*/
+	//task7
+	fmt.Println("task7")
+	tasks.SolveWithSyncMap()
+	//task8
+	fmt.Println("task8")
+	tasks.Solve8_1()
+	tasks.Solve8_2()
 
-	/*	//task8
-		fmt.Println("task8")
-		tasks.Solve8_1()
-		tasks.Solve8_2()*/
 	/*
 		//task9
 		fmt.Println("task9")
