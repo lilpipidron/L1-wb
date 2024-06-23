@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("task3")
 	tasks.Solve3()
 
-	/*//task 4
+	//task 4
 	fmt.Println("task4")
 	tasks.Solve4()
 
@@ -28,23 +28,24 @@ func main() {
 	fmt.Println("task5")
 	tasks.Sender1()
 	tasks.Sender2()
-	tasks.Sender3()*/
+	tasks.Sender3()
 
-	/*	//task 6
-		fmt.Println("task6")
-		tasks.Solve6_1()
-		tasks.Solve6_2()
-		tasks.Solve6_3()
-		tasks.Solve6_4()
-		tasks.Solve6_5()*/
+	//task 6
+	fmt.Println("task6")
+	tasks.Solve6_1()
+	tasks.Solve6_2()
+	tasks.Solve6_3()
+	tasks.Solve6_4()
+	tasks.Solve6_5()
+
 	//task7
 	fmt.Println("task7")
 	tasks.SolveWithSyncMap()
 
-	/*	//task8
-		fmt.Println("task8")
-		tasks.Solve8_1()
-		tasks.Solve8_2()*/
+	//task8
+	fmt.Println("task8")
+	tasks.Solve8_1()
+	tasks.Solve8_2()
 
 	//task9
 	fmt.Println("task9")
@@ -53,30 +54,29 @@ func main() {
 	//task10
 	fmt.Println("task10")
 	tasks.Solve10()
-	/*
-		//task11
-		fmt.Println("task11")
-		tasks.Solve11_1()
-		tasks.Solve11_2()
-		tasks.Solve11_3()
 
-		//task12
-		fmt.Println("task12")
-		tasks.Solve12()
+	//task11
+	fmt.Println("task11")
+	tasks.Solve11_1()
+	tasks.Solve11_2()
+	tasks.Solve11_3()
 
-		//task13
-		fmt.Println("task13")
-		tasks.Solve13_1()
-		tasks.Solve13_2()
-		tasks.Solve13_3()
+	//task12
+	fmt.Println("task12")
+	tasks.Solve12()
 
-		//task14
-		fmt.Println("task14")
-		tasks.Solve14_1(1)
-		tasks.Solve14_2("1")
-		tasks.Solve14_3(true)
-		tasks.Solve14_3(make(chan int))
-	*/
+	//task13
+	fmt.Println("task13")
+	tasks.Solve13_1()
+	tasks.Solve13_2()
+	tasks.Solve13_3()
+
+	//task14
+	fmt.Println("task14")
+	tasks.Solve14_1(1)
+	tasks.Solve14_2("1")
+	tasks.Solve14_3(true)
+	tasks.Solve14_3(make(chan int))
 
 	//task16
 	fmt.Println("task16")
