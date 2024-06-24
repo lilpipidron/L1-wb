@@ -25,14 +25,10 @@ func Solve10() {
 		label := int(val) / 10 * 10
 		if _, ok := sets[label]; !ok {
 			sets[label] = NewSet(label)
-			set := sets[label]
-			set.Arr = append(set.Arr, val)
-			sets[label] = set
-		} else {
-			set := sets[label]
-			set.Arr = append(set.Arr, val)
-			sets[label] = set
 		}
+		set := sets[label]
+		set.Arr = append(set.Arr, val)
+		sets[label] = set
 	}
 	var ans []Set
 	for _, val := range sets {
